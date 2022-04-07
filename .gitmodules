@@ -1,0 +1,4 @@
+[submodule "studyforrest-data-templatetransforms"]
+	path = studyforrest-data-templatetransforms
+	url = https://github.com/psychoinformatics-de/studyforrest-data-templatetransforms.git
+	datalad-id = ceb007ac-ef05-4392-98d2-35c02a774a21
