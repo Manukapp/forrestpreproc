@@ -1,2 +1,4 @@
 [datalad "dataset"]
 	id = 5360f9ca-d4b6-4026-af2b-b8bf5ecfd13b
+[datalad "containers.Leo"]
+	image = env/CNC-UMCG-cnc_fsl-master-latest.simg
