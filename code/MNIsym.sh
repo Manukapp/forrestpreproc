@@ -1,4 +1,4 @@
-!/bin/sh
+#!/bin/sh
 for i in {01..21}; do
     xfm1="./inputs/studyforrest-data-templatetransforms/templates/grpbold3Tp2/xfm/mni2tmpl_12dof.mat"
     atlas="./inputs/MNI-prob-2mm.nii.gz"
