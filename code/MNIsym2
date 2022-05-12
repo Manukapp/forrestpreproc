@@ -5,5 +5,6 @@ xfm1=$2
 xfm2=$3
 sub=$4
 out=$5
+mkdir -p "$(dirname $out)"
 fsl5.0-applywarp --premat="$xfm1" -i "$atlas" -o "$out" -r "$sub" -w "$xfm2"
 
