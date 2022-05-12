@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e -u #e: error, stop u: undefined variable, stop
+atlas=$1
+xfm1=$2
+xfm2=$3
+sub=$4
+out=$5
+fsl5.0-applywarp --premat="$xfm1" -i "$atlas" -o "$out" -r "$sub" -w "$xfm2"
+
