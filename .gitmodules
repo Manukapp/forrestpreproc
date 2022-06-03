@@ -2,3 +2,7 @@
 	path = inputs/studyforrest-data-templatetransforms
 	url = https://github.com/psychoinformatics-de/studyforrest-data-templatetransforms.git
 	datalad-id = ceb007ac-ef05-4392-98d2-35c02a774a21
+[submodule "inputs/studyforrest-data-phase2"]
+	path = inputs/studyforrest-data-phase2
+	url = https://github.com/psychoinformatics-de/studyforrest-data-phase2.git
+	datalad-id = 5eaff716-54eb-11e8-803d-a0369f7c647e
