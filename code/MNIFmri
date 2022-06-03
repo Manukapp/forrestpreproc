@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e -u #e: error, stop u: undefined variable, stop
+fmri=$1
+atlased=$2
+out=$3
+mkdir -p "$(dirname $out)"
+fsl5.0-applywarp -i "$fmri" -o "$out" -r "$atlased"
+
