@@ -4,5 +4,5 @@ brain=$1
 sub=$2
 out=$3
 mkdir -p "$(dirname $out)"
-fsl5.0-flirt -i "$brain" -refvol "$sub" -o "$out"
+fsl5.0-flirt -in "$brain" -ref "$sub" -out "$out"
 
