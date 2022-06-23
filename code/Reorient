@@ -4,5 +4,5 @@ brain=$1
 ref=$2
 out=$3
 mkdir -p "$(dirname $out)"
-fsl5.0-fnirt --ref "$ref" --in "$brain" --iout "$out"
+fsl5.0-fnirt --iout="$out" --ref="$ref" --in="$brain"
 
