@@ -10,3 +10,6 @@
 	path = analysis_1
 	url = ./analysis_1
 	datalad-id = f2869284-144b-4442-9484-b50ed8ff7ba5
+[submodule "datalad-metalad"]
+	path = datalad-metalad
+	url = https://github.com/datalad/datalad-metalad.git
